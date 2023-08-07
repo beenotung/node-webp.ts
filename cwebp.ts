@@ -3,19 +3,26 @@ import { spawn } from 'child_process'
 export type CwebpOptions = {
   input: string
   output: string
-  quality?: number // 0..100, default 75
-  size?: number // max bytes
+  /** quality: 0..100, default 75 */
+  quality?: number
+  /** size: max bytes */
+  size?: number
   preset?: 'default' | 'photo' | 'picture' | 'drawing' | 'icon' | 'text'
   hint?: 'photo' | 'picture' | 'graph'
   low_memory?: boolean
   lossless?: boolean
-  near_lossless?: number // 0..100, typically 60
-  method?: number // 0..6, default 4
+  /** near_lossless: 0..100, typically 60 */
+  near_lossless?: number
+  /** method: 0..6, default 4 */
+  method?: number
   auto_filter?: boolean
-  deblocking_filter?: number // 0..100, typically 20..50
-  spatial_noise_shaping?: number // 0..100, default 50
-  metadata?: 'all' | 'none' | 'exif' | 'icc' | 'xmp' // default 'none'
-  // crop is applied before resize
+  /** deblocking_filter: 0..100, typically 20..50 */
+  deblocking_filter?: number
+  /** spatial_noise_shaping: 0..100, default 50 */
+  spatial_noise_shaping?: number
+  /** metadata: default 'none' */
+  metadata?: 'all' | 'none' | 'exif' | 'icc' | 'xmp'
+  /** crop is applied before resize */
   crop?: {
     top: number
     left: number

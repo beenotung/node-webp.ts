@@ -3,11 +3,12 @@
     "target": "es2022",
     "module": "commonjs",
     "esModuleInterop": false,
+    "removeComments": false,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "incremental": true,
+    "declaration": true,
     "outDir": "dist"
   },
-  "exclude": ["dist"]
+  "exclude": ["dist", "test.ts"]
 }

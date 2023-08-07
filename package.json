@@ -1,20 +1,37 @@
 {
-  "name": "node-webp.ts",
+  "name": "webp.ts",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Convert image to webp and compress to save space with `cwebp` system program.",
+  "keywords": [
+    "webp",
+    "cwebp",
+    "libwebp",
+    "libwebp-tools",
+    "spawn",
+    "child_process",
+    "native",
+    "wrapper"
+  ],
+  "author": {
+    "name": "Beeno Tung",
+    "email": "aabbcc1241@yahoo.com.hk",
+    "url": "https://beeno-tung.surge.sh"
+  },
+  "license": "BSD-2-Clause",
+  "main": "dist/cwebp.js",
+  "types": "dist/cwebp.d.ts",
+  "files": [
+    "dist/cwebp.js",
+    "dist/cwebp.d.ts"
+  ],
   "scripts": {
     "test": "tsc --noEmit",
     "build": "tsc -p ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.4.5",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.1.6"
-  },
-  "dependencies": {}
+  }
 }
