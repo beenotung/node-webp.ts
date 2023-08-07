@@ -18,6 +18,14 @@
     "url": "https://beeno-tung.surge.sh"
   },
   "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/node-webp.ts.git"
+  },
+  "homepage": "https://github.com/beenotung/node-webp.ts#readme",
+  "bugs": {
+    "url": "https://github.com/beenotung/node-webp.ts/issues"
+  },
   "main": "dist/cwebp.js",
   "types": "dist/cwebp.d.ts",
   "files": [
