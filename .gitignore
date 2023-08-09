@@ -8,3 +8,4 @@ dist/
 .env
 res/
 *.tgz
+.DS_Store
