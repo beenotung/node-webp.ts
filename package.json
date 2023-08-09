@@ -1,6 +1,6 @@
 {
-  "name": "webp.ts",
-  "version": "0.0.0",
+  "name": "node-webp.ts",
+  "version": "1.0.0",
   "description": "Convert image to webp and compress to save space with `cwebp` system program.",
   "keywords": [
     "webp",
