@@ -39,10 +39,6 @@ export function cwebp(
   options: CwebpOptions,
   cb: (code: number | null) => void,
 ): void
-export function cwebp(
-  options: CwebpOptions,
-  cb: (code: number | null) => void,
-): void
 export function cwebp(options: CwebpOptions): Promise<number | null>
 export function cwebp(
   options: CwebpOptions,
